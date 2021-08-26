@@ -73,7 +73,7 @@ http://localhost:4000/api/short
 curl --location --request POST 'http://localhost:4000/api/short' \
 --header 'Content-Type: application/json' \
 --data-raw '{
-    "origUrl": "https://github.com/"
+    "origUrl": "https://es.zenit.org"
 }'
 ```
 
