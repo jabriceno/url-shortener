@@ -1,5 +1,7 @@
 # Acortador de URLs (_URL shortener_)
 
+![GitHub repo size](https://img.shields.io/github/repo-size/jabriceno/url-shortener)
+
 Esta herramienta tiene el proposito de generar una url mas corta a partir de un otra url dada. Adicionalmente, almacena los datos de cada url recortada para usos posteriores y para contar la cantidad de visitas a esa url.
 
 _This tool has the purpose of generating a shorter url from another given url. Additionally, it stores the data of each url for later use and to count the number of visits to that url_
