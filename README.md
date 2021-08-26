@@ -92,4 +92,4 @@ curl --location --request POST 'http://localhost:4000/api/short' \
 ```
 
 * Introduzca el valor corrspondiente a _"shortUrl"_ en su navegador para acceder a la web original.
-* _Enter the value corresponding to _ "shortUrl" _ in your browser to access the original web._
+* _Enter the value corresponding to "shortUrl" in your browser to access the original web._
