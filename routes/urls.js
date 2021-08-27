@@ -10,23 +10,22 @@ router.post('/short', async (req, res) => {
     const { origUrl } = req.body;
     const base = process.env.BASE;
 
-    const urlId = shortid.generate();
     if (utils.validateUrl(origUrl)) {
         try {
             let url = await Url.findOne({ origUrl });
             if (url) {
                 res.json(url);
             } else {
+                const urlId = shortid.generate();
                 const shortUrl = `${base}/${urlId}`;
-    
-                url = new Url({
+                
+                url = await Url.create({
                     origUrl,
                     shortUrl,
                     urlId,
                     date: new Date(),
                 });
-        
-                await url.save();
+                
                 res.json(url);
             }
         } catch (err) {
