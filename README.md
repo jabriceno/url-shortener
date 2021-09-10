@@ -1,6 +1,7 @@
 # Acortador de URLs (_URL shortener_)
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/jabriceno/url-shortener)
+[![DeepScan grade](https://deepscan.io/api/teams/15390/projects/18553/branches/457362/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=15390&pid=18553&bid=457362)
 
 Esta herramienta tiene el proposito de generar una url mas corta a partir de un otra url dada. Adicionalmente, almacena los datos de cada url recortada para usos posteriores y para contar la cantidad de visitas a esa url.
 
